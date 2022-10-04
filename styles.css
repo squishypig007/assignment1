@@ -1,0 +1,91 @@
+
+/* Uncomment below if images are way too big.
+Selects all image tags and makes them 500px;
+ */
+/*img {*/
+/*  width: 500px;*/
+/*}*/
+
+#cs1300-gallery {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 227, 203);
+  flex-wrap: wrap;
+}
+
+  .intro-container{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: pink;
+    flex-wrap: wrap;
+  }
+
+  .observations-container{
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: center;
+    background-color: paleturquoise;
+    flex-wrap: wrap;
+  }
+
+  #observations{
+    display: flex;
+    margin: auto;
+    background-color: paleturquoise;
+    flex-wrap: wrap;
+  }
+
+  #patterns{
+    margin: auto;
+    background-color: peachpuff;
+  }
+
+  #gallery-meter {
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+  }
+
+  #cam{
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+  }
+
+  #melissa{
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+  }
+
+  #storyboard{
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+  }
+
+  #gallery-menu{
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+  }
+
+  #cam_user{
+    display: flex;
+    margin: auto;
+    background-color: peachpuff;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #melissa_user{
+    display: flex;
+    margin: auto;
+    background-color: paleturquoise;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
